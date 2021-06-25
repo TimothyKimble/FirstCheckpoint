@@ -34,3 +34,8 @@ main {
 .row {
   margin: auto;
 }
+
+.cardbg {
+  min-width: 100%;
+  
+}

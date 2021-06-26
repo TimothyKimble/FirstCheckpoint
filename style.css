@@ -4,25 +4,37 @@
 
 .headerbkg {
   min-height: 8vh;
-  background-image: url(https://images.unsplash.com/photo-1583248352195-d3a8e766edf2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80);
-  background-size: cover;
+  background-color: rgb(92,143,148);
+  background-size: auto;
+
+  background-position: center;
+  rotate: 90;
 }
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   scroll-behavior: smooth;
+  
+}
 
+.txtshadow {
+  text-shadow: black 1px 1px;
 }
 
 main {
   flex-grow: 1;
   flex-wrap: wrap;
 }
+.backgroundblue {
+ background-image: url(https://images.unsplash.com/photo-1566055972289-c52022ae23b7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzB8fGdhbWluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+ background-size: cover;
+ background-position: top;
+}
 
 .hero-img {
   min-height: 80vh;
-  background-image: url(https://images.unsplash.com/photo-1535025075092-5a1cf795130b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGZhbnRhc3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-image: url(https://images.unsplash.com/photo-1616588589676-62b3bd4ff6d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80);
   background-size: cover;
   background-position: center;
 }
@@ -38,4 +50,59 @@ main {
 .cardbg {
   min-width: 100%;
   
+}
+
+form {
+  background-color: white;
+  border-radius: 15px;
+  padding: 3rem;
+
+}
+
+.spill {
+  bottom: -6rem;
+}
+@media screen and (max-width:766px) {
+  .spill {bottom: 0rem;}
+}
+
+.spillimg {
+  background-color: white;
+}
+
+.spillpad {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.padding-rows {
+  padding-top: 10%;
+}
+
+.button1 {
+  background-color: #5d51c7; 
+  color: rgb(255, 255, 255); 
+  border: 2px solid rgb(75, 67, 67);
+  transition-duration: .5s;
+  border-radius: 12%;
+}
+
+.button1:hover {
+  background-color: rgb(75, 67, 67);
+  color: white;
+  border:2px solid #5d51c7;
+}
+
+
+div.hide {
+  
+}
+
+@media screen and (Max-width: 766px) {
+  div.hide {
+    /* display: none !important; */
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  } 
 }

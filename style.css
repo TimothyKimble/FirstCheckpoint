@@ -6,9 +6,6 @@
   min-height: 8vh;
   background-color: rgb(32 25 25);
   background-size: auto;
-
-  background-position: center;
-  rotate: 90;
 }
 body {
   min-height: 100vh;
